@@ -1,0 +1,538 @@
+#one{
+	height: 290px;
+	width: 233px;
+	position: absolute;
+	left: 20px;
+	top: 20px;
+	
+}
+body{
+	background-image: url(https://i1.wallbox.ru/wallpapers/main/201133/apple-chernyy-yabloko-1348d0b.jpg);
+	background-size: 100%;
+}
+#four{
+	color: white;
+	text-decoration: none;
+	font-size: 40px;
+	padding: 20px 20px 20px 20px;
+	margin: 40px 20px 40px 20px;
+	transition: 1s;
+}
+
+#two{
+	height: 800px;
+	width: 1720px;
+	position: absolute;
+	top: 50px;
+	left: 160px;
+	text-align: center;
+}
+#four:hover{
+	
+	transition: 0.8s;
+	background-color: #A9A9A9;
+	border-radius: 70px;
+	color: black;
+}
+   ul {
+    width: 280px; 
+    list-style: none; 
+    margin: -47px 100px 100px 1280px; 
+    padding: 1px; 
+    font-size: 10px; 
+
+   }
+   li #nine {
+    position: relative; 
+    display: none; 
+    margin-left: 50px; 
+    margin-top: -33px; 
+   }
+   li #seven {
+    display: block; 
+    padding: 10px; 
+    text-decoration: none; 
+    color: white; 
+   }
+   li a:#seven {
+    color: white; 
+     background-color: #696969 ;
+   }
+   li #three {
+    display: block; 
+    padding: 10px; 
+    text-decoration: none; 
+    color: white; 
+   }
+   li a:#three {
+    color: white; 
+     background-color: #A9A9A9 ;
+   }
+   li #x{
+   	text-decoration: none;
+   }
+
+   li:hover ul { 
+    display: block;
+   }
+
+#x{
+	color: black;
+	font-size: 40px;
+	background-color: white;
+	border-radius: 10px;
+	padding: 10px 10px 10px 10px;
+	transition: 20s;
+}
+#three{
+	font-size: 30px;
+	background-color: #696969;
+	transition: 1s;
+}
+#x:hover{
+	color: white;
+	background-color: #696969;
+	transition: 0.7s;
+	font-size: 43px;
+	border-radius: 50px;
+}
+#three:hover{
+ 	transition: 1.5s;
+ 	background-color: white;
+ 	color: black;
+ 	font-size: 33px;
+ 	border-radius: 70px;
+}
+#nine{
+	 position: relative; 
+    display: none; 
+    margin-left: 40px; 
+    margin-top: -100px; 
+}
+li:hover #nine { 
+    display: block; 
+   }
+#nine{
+	width: 63%;
+	border-color: black;
+
+} 
+#seven:hover{
+	transition: 1.5s;
+ 	background-color: white;
+ 	color: black;
+ 	font-size: 30px;
+ 	border-radius: 70px;
+}
+#seven{
+	font-size: 30px;
+	background-color: #696969;
+	transition: 1s;
+}
+#ten{
+		border-color: black;
+}
+#twe{
+	height: 250px;
+	width: 220px;
+	transition: 0.5s;
+	padding: 15px;
+}
+#ip{
+	position: absolute;
+	left: 700px;
+	top: 200px;
+}	
+#onew{
+	color: white;
+	background-color: #696969 ;
+	font-size: 20px;
+	transition: 1s;
+}
+#onew:hover{
+	font-size: 23px;
+	transition: 0.8s;
+
+}
+#logo{
+	font-size: 60px;
+	color: white;
+	position: absolute;
+	left: 1000px;
+	top: -50px;
+}
+#twe:hover{
+	filter: brightness(0.5);
+	transition: 0.5s;
+}
+#onew{
+	position: absolute;
+	top: 500px;
+}
+#qwer{
+	color: white;
+	font-size: 40px;
+	text-decoration: none;
+}
+#none{
+	position: absolute;
+	top: 500px;
+	left: -1000px;
+	background-color: black	;
+	height: 300px;
+	width: 500px;
+	border-radius: 30px;
+}
+#as{
+	text-align: center;
+	
+}
+#color{
+	color: white;
+	position: absolute;
+	top: 391px;
+	left: 270px;
+	font-size: 40px;
+	text-decoration: none;
+	transition: 10s;
+	width: 250px;
+	height: 100px;
+}
+ul {
+    width: 280px; 
+    list-style: none; 
+    margin: -47px 100px 100px 1280px; 
+    padding: 1px; 
+    font-size: 10px; 
+
+   }
+   li #nine {
+    position: relative; 
+    display: none; 
+    margin-left: 50px; 
+    margin-top: -33px; 
+   }
+   li #seven {
+    display: block; 
+    padding: 10px; 
+    text-decoration: none; 
+    color: white; 
+   }
+   li a:#seven {
+    color: white; 
+     background-color: #696969 ;
+   }
+   li #three {
+    display: block; 
+    padding: 10px; 
+    text-decoration: none; 
+    color: white; 
+   }
+   li a:#qwer {
+    color: white; 
+     background-color: #A9A9A9 ;
+   }
+   li #x{
+   	text-decoration: none;
+   }
+
+   li:hover ul { 
+    display: block;
+   }
+
+
+}
+#qwer{
+	font-size: 30px;
+	background-color: #696969;
+	transition: 1s;
+
+}
+#color:hover{
+	color: white;
+	background-color: #696969;
+	transition: 0.7s;
+	font-size: 43px;
+	border-radius: 30px;
+
+}
+
+#none{
+	 position: relative; 
+    display: none; 
+    margin-left: -153px; 
+    margin-top: -143px;
+}
+li:hover #none { 
+    display: block; 
+    width: 280px;
+   }
+#none{
+	width: 63%;
+	width: 270px;
+	text-align: center;
+	transition: 1s;
+	background-color: #A9A9A9;
+	height: 200px;
+} 
+#qwer:hover{
+	transition: 1.5s;
+ 	background-color: white;
+ 	color: black;
+ 	font-size: 30px;
+ 	border-radius: 70px;
+
+}
+#qwer{
+	font-size: 30px;
+	background-color: #696969;
+	transition: 1s;
+
+}
+#name{
+	text-decoration: none;
+	color: white;
+
+}	
+#kok{
+	position: absolute;
+	left: 600px;
+	top: 300px;
+}
+#gmc{
+	position: absolute;
+	top: 300px;
+	left: 600px;
+}
+#bmw{
+	position: absolute;
+	top: 300px;
+	left: 600px;
+}
+#start{
+	position: absolute;
+	left: 100px;
+
+}
+#bar{
+	position: absolute;
+	left: 120px;
+	top: 450px;
+	height: 400px;
+	width: 700px;
+	border-radius: 50px;
+}
+#class{
+	position: absolute;
+	left: 1100px;
+	top: 450px;
+	heigh: 300px;
+	width: 440px;
+	border-radius: 50px;
+}
+#clock{
+	position: absolute;
+	left: 430px;
+	top: 126px;
+	height: 300px;
+	width: 500px;
+	border-radius: 50px;		
+}
+#tv{
+	position: absolute;
+	left: 1000px;
+	top: 140px;
+	height: 250px;
+	width: 420px;
+	border-radius: 50px;	
+}
+#zxc{
+	height: 500px;
+	width: 370px;
+	position: absolute;
+	left: 20px;
+	top: -40px;
+	transition: 1s;
+
+}
+#tea{
+	color: white;
+	font-size: 30px;
+	position: absolute;
+	top: 50px;
+	left: 600px;
+	background-color:#808080 ;
+	border-radius: 50px;
+}
+#zxc:hover{
+	height: 520px;
+	width: 384px;
+	transition: 1s;
+}
+body {
+      font-family: Helvetica, sans-serif;
+      padding: 5%;
+      text-align: center;
+    }
+#slideshow {
+		position: absolute;
+		left: 1095px;
+		top: 50px;
+      overflow: hidden;
+      height: 510px;
+      width: 728px;
+      margin: 0 auto;
+    }
+
+    .slide-wrapper {
+      width: 2912px;
+      -webkit-animation: slide 10s ease infinite;
+    }
+
+    .slide {
+      float: left;
+      height: 510px;
+      width: 728px;
+    }
+
+ 
+    .slide-number {
+      color: #000;
+      text-align: center;
+      font-size: 10em;
+      width: 500px;
+      height: 500px;
+    }
+     @-webkit-keyframes slide {
+      20% {margin-left: 0px;}
+      30% {margin-left: -728px;}
+      50% {margin-left: -728px;}
+      60% {margin-left: -1456px;}
+      70% {margin-left: -1456px;}
+      80% {margin-left: -2184px;}
+      90% {margin-left: -2184px;}
+    }
+#data{
+	position: absolute;
+	top: 400px;
+	left: 330px;
+	color: #F5FFFA		;
+	font-size: 10px;
+	background-color: #808080;
+	background-size: 1%;
+	height: 800px;
+	width: 800px;
+	border-radius: 20px;
+}
+#styl{
+	position: absolute;
+	left: 370px;
+	top: 60px;
+	font-size: 30px;
+	color: #F5FFFA	;
+}
+#cpi{
+	position: absolute;
+	left: 50px;
+	top: 440px;
+
+
+}
+#cpu{
+	width: 60px;
+	height:45px ;
+}
+#coffe{
+	position: absolute;
+	top: 150px;
+	left: 380px;
+	color: #F0FFF0;
+}
+#buy{
+	color: black;
+	background-color: #DC143C;
+	border-radius: 50px;
+	width: 150px;
+	height: 50px;
+	position: absolute;
+	left: 700px;
+	top: 700px;
+	text-align: center;
+	transition: 1s;
+}
+#buy:hover{
+	font-size: 35px;
+	background-color: #FF0000;
+	transition: 1s;
+}
+#voice{
+	color: white;
+	position: absolute;
+	top: 50px;
+	left: 850px;
+	background-color: #696969;
+	border-radius: 30px;
+	width: 300px;
+}
+#buyone{
+	margin: 50px;
+	width: 150px;
+	height: 50px;
+	font-size: 20px;
+	position:absolute ;
+	left: 870px;
+	background-color:#D3D3D3;
+	border-color: #D3D3D3;
+}
+#contact{
+	position: absolute;
+	left: 500px;
+	top: 300px;
+	background-color: #696969 ;
+	width: 1000px;
+	height: 500px;
+}
+#inf{
+	color: white;
+	position: absolute;
+	left: 50px;
+	top: 10px;
+	background-color: #808080;	
+}
+#post{
+	width: 140px;
+	font-size: 20px;
+	border-color: white;
+	background-color: #808080;	
+	color: white;
+}
+#puf{
+	position: absolute ;
+	top: 80px;
+	left: 70px;
+	background-color: #808080;
+	font-size: 24px;
+	color: white;
+	width: 280px;
+	border-radius: 30px;
+	height: 190px;
+}
+#air{
+	color:white ;
+	background-color:  #DC143C;
+	width: 290px;
+	height: 120px;
+	border-radius: 30px;
+	position: absolute;
+	top: 600px;
+	left: 563px;
+	font-size: 25px;
+}
+#all{
+	position: absolute;
+	left: 940px ;
+	top: 390px;
+	width: 500px;
+	height: 310px;
+	border-radius: 20px;
+}

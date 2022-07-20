@@ -1,0 +1,275 @@
+body {
+	margin: 0px auto;
+	background-color: black;
+	color: white;
+	font-family: sans-serif;
+	width: 90%;
+	max-width: 1024px;
+	background-image: url(https://i.pinimg.com/originals/72/1c/68/721c68c83bffa6d2a720313fb08fc27e.gif);
+	background-size: 100%;
+
+}
+.flex-nav {
+	background-image: red;
+	width: 100%;
+	height: 100%;
+}
+html{
+		box-sizing: border-box;
+}
+	* , *:before , *:after{
+		box-sizing: inherit;
+	}
+#gr{
+	 background: linear-gradient(  to right, #FF0000, #FF00FF, #0000CD);
+	 width: 500px;
+	 margin-left: 40%;
+	 border-radius: 12px;
+	 margin: 0 auto;
+	 margin-top: 30px ;
+	 margin-bottom: 20px;
+	 text-decoration: none;
+	 color: white;
+	 font-size:40px;
+}
+header h1 {
+	text-align: center;
+}
+a{
+  text-decoration: none;
+  display: inline-block;
+  width: 80%; 
+}
+.left {
+	float: left;
+	width: 60%;
+	font-size: 24px;
+}
+.left img {
+	float: left;
+	margin-right: 10px;
+	transition: 1s;
+	margin-top: 25px;
+	width: 600px;
+}
+.left img:hover {
+	width: 500px;
+	transition: 1s;
+	border-radius:40px;
+}
+.left:hover{
+  color: black;
+	background-color: silver;
+	transition: 1s;
+	border-radius: 40px;
+	border-color: black; 
+  border-style: solid; 
+	opacity: 0.7;
+}
+.right {
+	float: right;
+	width: 30%;
+	font-size: 18px;
+	transition: 1s;
+	text-align: center;
+	margin-bottom: 300px;
+}
+.right:hover {
+	color: black;
+	text-align: center;
+	background-color: silver;
+	transition: 1s;
+	border-radius: 40px;
+	 border-color: black; 
+    border-style: solid; 
+    padding: 3px; 
+	opacity: 0.7;
+}
+#chip{
+	position: absolute;
+	left: 150px;
+}
+@media all and (max-width: 1000px) {
+	body{background-image: url(https://avatanplus.com/files/resources/original/5737760f1c674154b0a52b0c.jpg);
+	background-size: 100%;
+	}
+}
+.toggleNav{ 
+ display: none; 
+} 
+@media all and (max-width: 1000px){
+	.flex-nav ul{
+		flex-wrap: wrap;
+	}
+	.flex-nav ul video{
+		width: 130px;
+		height: 110px;
+		border-radius: 60px;
+		margin: 10px 10px; 
+	}
+	.flex-nav ul video:hover{
+		margin: 5px 5px;
+		border-radius: 40px;
+		opacity: 1;
+		width: 140px; 
+		height: 120px;
+			
+	}
+	.left img:hover{
+		opacity: 0.8;
+		width: 200px;
+		border-radius: 10px;
+	}
+	.left img{
+		width: 300px;
+	}
+.flex-nav ul{
+	margin: 0px;
+	padding: 0px;
+	display: flex;
+	list-style: none;
+	width: 75%;
+	} 
+	#sasha iframe{
+	width: 470px;
+	height: 280px;
+	}
+	#gh{
+		font-size: 20px;
+	}
+	#foot h1{
+		font-size: 20px;
+	}
+	#bla div{
+	margin-left: -63%;
+}}
+@media all and (max-width: 750px){
+	.left img{
+		width: 200px;
+	}
+	#sasha iframe{
+		width: 320px;
+		height: 180px;
+	}
+	#gh{
+		display: none;
+	}
+	#foot h1{
+		display: none;
+	}
+	hr{
+		display: none;
+	}
+}
+@media all and (max-width: 500px){
+	#sasha iframe{
+		width: 230px;
+		height: 150px;
+	}
+}
+.flex-nav ul{
+	margin: 0px;
+	padding: 0px;
+	display: flex;
+	list-style: none;
+	margin: 0 auto;
+}
+
+.flex-nav video{
+	width: 120px;
+	height: 100px;
+	transition: 1s;
+	margin-left: 10px;
+	margin: auto 0;
+}
+.flex-nav{
+	text-align: center;
+	border: 0px;
+}
+.flex-nav p {
+	text-decoration: none;
+	font-family: sans-serif;
+	font-size: 18px;
+	color: white;
+	text-align: center;
+}
+.flex-nav p:hover {
+	background-color: grey;
+	color: black;
+	transform: 2s;
+	border-radius: 10px;
+}
+.flex-nav a{
+	text-decoration: none;
+}
+.flex-nav a:visited{
+	text-decoration: none;
+	color:white;
+}
+.flex-nav video:hover{
+	transition: 1s;
+	opacity:0.6;
+	margin: auto 0;
+	border-radius: 10px;
+}
+#yuliashargorodskaa {
+	width: 100%;
+	height: 100%;
+}
+#sasha{
+	width: 600px;
+	height: 300px;
+}
+li { 
+ list-style:none; 
+} 
+@media all and (max-width: 700px){
+	.flex-nav ul { 
+  display: none; 
+  flex-direction: column; 
+ } 
+}
+footer{
+	margin-left: -5%;
+	color: white;
+	width: 110%;
+	height: 200px;
+	background-color: #808080;
+	display: flex;
+	font-size: 20px;
+}
+footer h1{
+	margin-left: 15%;
+	display: flex;
+	font-size: 30px;
+}
+#foot a{
+	color: white;
+	font-size: 40px;
+	margin-right: 1%;
+	margin-left: 5%;
+}
+#foot{
+	margin-left: 4%;
+	text-align: left;
+	border-left: 5px solid white;
+	height: 200px;
+	width: 450px;
+}
+footer a{
+	color: white;
+	font-size: 30px;
+	display: flex;
+	margin-left: 2%;
+}
+#bla {
+	margin-left: -4%;
+	font-size: 25px;
+}
+#gh{
+	margin-left: -70%;
+	font-size: 30px;
+}
+#bla div{
+	margin-left: -70%;
+}

@@ -1,0 +1,156 @@
+body{
+	background-image: url(https://steamcdn-a.akamaihd.net/steamcommunity/public/images/items/447850/6a21d0150328351028a4c27d083221453d76c5a4.jpg) ;
+	font-family: Verdana;
+	font-size:cover;	z-index: -1;
+}
+h1{
+	font-family: Verdana;
+}
+.sw1{
+	height: 150px;
+}
+.d-menu{
+  position:relative;
+	background-color: yellow;
+	margin-top: 0px;
+	width: 100%;
+}
+ul.d-ul{
+	display: flex;
+	padding: 0;
+	justify-content: center;
+}
+li.d-li{
+	list-style: none;
+	padding: 10px;
+}
+
+li.d-li a{
+	text-decoration: none;
+	font-size: 18px;
+	color: #000;
+	position: relative;
+	padding: 5px;
+}
+li.d-li a i{
+	margin-right: 10px;
+}
+li.d-li a::before{
+	content: '';
+	width: 0px;
+	height: 3px;
+	background-color: #33bdf1;
+	position: absolute;
+	top: 90%;
+	left: 0;
+	transition: 1.5s;
+	mix-blend-mode: multiply;
+}
+li.d-li a::after{
+	content: '';
+	width: 0px;
+	height: 3px;
+	background-color: #ff2117;
+	position: absolute;
+	top: 90%;
+	right: 0;
+	transition: 1.5s;
+	mix-blend-mode: multiply;
+}
+li.d-li:hover{
+	background-color: #e9e9e9;
+}
+li.d-li:hover a::before{
+	width: 50%;
+	transform: translateX(100%);
+}
+li.d-li:hover a::after{
+	width: 50%;
+	transform: translateX(-100%);
+}
+li.d-li a:hover{
+	color: black;
+}
+.sideLeft{
+	background: #81ffb6;
+	width: 30%;
+	height: 715px;
+	margin-top: 5px;
+	padding: 1px 0;
+	float: left;
+}
+.content{
+	background: #fefffd;
+	width: 69%;
+	margin-top: 5px;
+	height: 715px;
+	float: right;
+}
+@media only screen and (max-width: 700px){
+.sideLeft{
+  height:600px;
+	margin-top:20px;
+}
+	.content{
+	height:600px;
+	margin-top:20px;
+}
+  .sw2{
+    height: 150px;
+  }
+  li.d-li{
+	list-style: none;
+	padding: 10px;
+}
+  .sw1{
+	height: 100px;
+}
+	body{
+	background-color: #666666;
+	font-family: Verdana;
+}
+.d-menu{
+	background-color: yellow;
+	margin-top: 0px;
+	width: 100%;
+}
+ul.d-ul{
+	display: flex;
+	padding: 0;
+	justify-content: center;
+}
+li.d-li{
+	list-style: none;
+	padding: 0px;
+}
+li.d-li a{
+	text-decoration: none;
+	font-size: 12px;
+	color: #000;
+	position: relative;
+	padding: 5px;
+}
+li.d-li a i{
+	margin-right: 32,5px;
+}
+}
+
+
+
+
+
+
+
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+
+
+

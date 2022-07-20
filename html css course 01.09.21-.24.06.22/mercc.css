@@ -1,0 +1,77 @@
+body{
+	background-color: black;
+	color: white;
+	font-family: sans-serif;
+	width: 80%;
+	max-width: 1024px;
+	background-image: url(https://i.pinimg.com/originals/72/1c/68/721c68c83bffa6d2a720313fb08fc27e.gif);
+	background-size: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+#ch{
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 35px;
+	background-color: #7B68EE;
+	width: 45%;
+	border-radius: 15px;
+	color: #B0E0E6;
+}
+#firstph{
+	float: left;
+	
+}
+#firstph img{
+	float: left;	
+	width: 400px;
+	height: 300px;
+	border-radius: 40px;
+}
+#dvd{
+	width: 950px;
+	margin-left: 2%;
+	height: 400px;
+
+}
+#golova{
+	margin-left: 55%;
+	text-align: center;
+	color: #0000FF;
+	background-color: #00FFFF;
+	width: 350px;
+	border-radius: 15px;
+	
+}
+#earth{
+	width: 1000px;
+}
+#earth img{
+	width: 500px;
+	height: 350px;
+	float: right;
+	margin-right: 20px;
+	border-radius: 30px;
+	margin: 20px 30px 10px 5px;
+}
+#po{
+	margin-left: 3%;
+	font-size: 50px;
+	text-align: center;
+	color: #0000FF;
+	background-color: #00FFFF;
+	width: 300px;
+	border-radius: 15px;
+}
+#gre{
+	width: 950px;
+}
+#f{
+	text-align: center;
+}
+#back img{
+	width: 100px;
+	border-radius: 50px;
+	float: left;
+	margin-top: -15%;
+}

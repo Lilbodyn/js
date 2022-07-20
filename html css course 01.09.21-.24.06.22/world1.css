@@ -1,0 +1,23 @@
+body{
+	background-image: url(https://steamcdn-a.akamaihd.net/steamcommunity/public/images/items/447850/6a21d0150328351028a4c27d083221453d76c5a4.jpg) ;
+	font-family: Verdana;
+	font-size:cover;	z-index: -1;
+}
+h1{
+	font-family: Verdana;
+}
+#longt {
+	display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+#longt img{
+	width: 700px;
+}
+#text h1{
+	color: white;
+	text-align: center;
+	width: 50%;
+	margin: 0 auto;
+	margin-top: 100px;
+}

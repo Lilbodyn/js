@@ -1,0 +1,40 @@
+* , *:before ,*:after{ 
+ box-sizing: inherit; 
+} 
+img { 
+ width: 100px; 
+ height: 100px; 
+} 
+li { 
+ list-style:none; 
+} 
+a { 
+ background-color: rgba(75, 50, 150, 0.2); 
+ width: 80%; 
+ display: inline-block; 
+ 
+ text-align: center; 
+} 
+a:hover { 
+ background-color: rgba(0, 0, 0, 0.5); 
+} 
+0
+ padding: 0px; 
+ margin: 0px; 
+} 
+.toggleNav{ 
+ display: none; 
+} 
+@media all and (max-width: 600px){ 
+ .flex-nav ul { 
+  display: none; 
+  flex-direction: column; 
+ } 
+ .toggleNav{ 
+  display: block; 
+ } 
+ .flex-nav ul.open { 
+  display: flex; 
+  flex-direction: column; 
+ } 
+}

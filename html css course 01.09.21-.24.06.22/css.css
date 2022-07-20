@@ -1,0 +1,17 @@
+.image-wrap {
+    width: 2000px;
+    height: 1000px;
+    border: 0px solid gray;
+}
+.image-center {
+    display: block;
+    margin: auto;
+}
+.image-alighn {
+    text-align: center;
+}
+.image-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

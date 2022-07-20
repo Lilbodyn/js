@@ -1,0 +1,110 @@
+body{
+	background: linear-gradient(to bottom, #33ccff 10%, #ff99cc 100%);
+}
+#I{
+	background: #009D4B;
+	position: relative;
+	left: 50px;
+	top: 20px;
+	height: 25px;
+	width: 55px;
+	text-align: center;
+}
+#Y{
+	background: red;
+	position: relative;
+	left: 50px;
+	top: 20px;
+	height: 25px;
+	width: 55px;
+	text-align: center;
+}
+#T{
+	background: purple;
+	position: relative;
+	left: 50px;
+	top: 20px;
+	height: 25px;
+	width: 55px;
+	text-align: center;
+}
+#O{
+	background: yellow;
+	position: fixed;
+	left: 500px;
+	top: 20px;
+	height: 25px;
+	width: 55px;
+	text-align: center;
+	border-radius: 12px;
+}
+form{
+	
+	color: #FF00FF;
+}
+input{
+	background-color: #EE82EE;
+}
+option{
+	background-color: #EE82EE;
+}
+select{
+	background-color: #EE82EE;
+}
+
+img{
+	height: 100px;
+	width: 200px;
+	float: left;
+	margin:   20px;
+}
+.q{
+	color: red;
+	background-color: red;
+	height: 20px;
+	width: 60px;
+	border: 2px solid #000000;
+}
+.w{
+	color: yellow;
+	background-color: yellow;
+	height: 20px;
+	width: 60px;
+	border: 2px solid #000000;
+	
+}
+#e{
+	color: green;
+	background-color: green;
+	height: 20px;
+	width: 60px;
+	border: 2px solid #000000;
+}
+#r{
+	color: #FFF5EE;
+	background-color: #FFF5EE;
+	height: 20px;
+	width: 40px;
+	position: relative;
+	left: 22px;
+	bottom: 22px;
+}
+#h{
+	color: #FFF5EE;
+	background-color: #FFF5EE;
+	height: 20px;
+	width: 25px;
+	position: relative;
+	left: 37px;
+	bottom: 22px;
+}
+hr{
+	color: black;
+	background-color: black;
+}
+#photo{
+	width: 200px;
+	height: 120px;
+	margin: 20px 20px 20px 20px;
+	padding: 20px 20px 20px 20px;
+}

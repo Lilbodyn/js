@@ -1,0 +1,78 @@
+body{
+	margin: 0px auto;
+	background-color: black;
+	color: white;
+	font-family: sans-serif;
+	width: 80%;
+	max-width: 1024px;
+	background-image: url(https://i.pinimg.com/originals/72/1c/68/721c68c83bffa6d2a720313fb08fc27e.gif);
+	background-size: 100%;
+}
+#chip{
+	
+	float: left;
+	color: green;
+}
+#php{
+	color: #FF4500;
+	background-color: #FFDEAD;
+	text-align: center;
+	float: right;
+	margin-right: 14%;
+	border-radius: 20px;
+	width: 400px;
+	font-family: sans-serif;
+	font-size: 50px;
+}
+#css{
+	font-size: 15px;
+	width: 1100px;
+}
+#h{
+	font-size: 100px;
+	background-color:#FF4500;
+	width: 350px;
+	border-radius: 10px;
+	color: #FAEBD7 ;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+#f{
+	width: 1000px;
+	font-size: 15px;
+}
+#f img{
+	float: right;
+	border-radius: 30px;
+	margin: 0px 0px 10px 10px;
+}
+#g{
+	color:#FF4500;
+	background-color: #FFDEAD;
+	width: 460px;
+	border-radius: 30px;
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 50px;
+
+}
+#u{
+	margin-left: auto;
+	margin-right: auto;
+	width: 800px;
+	float: right;
+	
+}
+#q{
+	width: 1000px;
+	background-color: #C0C0C0;
+	height: 800px;
+	border-radius: 20px;
+}
+#back img{
+	width: 100px;
+	border-radius: 50px;
+	float: left;
+	margin-top: -15%;
+}
