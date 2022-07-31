@@ -1,0 +1,35 @@
+
+body{
+    font-family: Impact, fantasy;
+    text-align: center;
+    background: #000;
+    color: #fff;
+}
+
+.main-text{
+    margin-top: 250px;
+    background: url(https://images.pexels.com/photos/3651579/pexels-photo-3651579.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    font-size: 150px;
+    color: transparent;
+    -webkit-background-clip: text;
+    animation: animate 8s infinite ease;
+    animation-direction: alternate;
+}
+@keyframes animate {
+    from{
+        background-position: 0 0;
+    }
+    to{
+        background-position: 100% 100%;
+    }
+}
+
+#div{
+    width: 500px;
+    height: 100px;
+    background-color: white;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 200px;
+    color: black;
+}

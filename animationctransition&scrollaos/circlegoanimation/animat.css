@@ -1,0 +1,35 @@
+body{
+	background-color:  black;
+}
+#circle{
+	background-color: white;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	position: relative;
+	left: 0;
+	animation-name: white-circle;
+	animation-duration: 2s;
+	animation-timing-function: cubic-bezier(.16,.72,.85,-0.07);
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-delay: 2s;
+	animation-fill-mode: forwards;
+}
+
+#circle:hover{
+	animation-play-state: paused;
+/*	animation-name: none;*/
+}
+
+@keyframes white-circle{
+	0%{
+		left: 0px;
+	}
+	50%{
+		border-radius: 10%;
+	}
+	100%{
+		left: 500px;
+	}
+}
