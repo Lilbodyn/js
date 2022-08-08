@@ -1,0 +1,8 @@
+.collection-text{
+    width: 170px;
+    height: 80px;
+    border: 1px solid black;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+}
