@@ -1,0 +1,20 @@
+.container{
+    height: 1200px;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+::-webkit-scrollbar-track{
+    background-color: red;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: blue;
+    border-radius: 10px;
+    border: 3px solid red;
+}
+
+.container::-webkit-scrollbar{  /* для блока */
+    border: 8px;
+}
