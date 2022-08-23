@@ -1,0 +1,223 @@
+@import "base";
+
+*{
+    box-sizing: border-box;
+
+}
+ body{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+    background-color: $primary-color;
+    color: $primary-text-color;
+}
+.container{
+    display: grid;
+    grid-template-columns: 25% auto;
+    grid-template-rows: 350px;
+    grid-auto-rows: auto;
+    grid-template-areas: 
+    "hd hd"
+    "nav nav"
+    "sidebar main"
+    "footer footer"
+    ;
+}
+.header{
+    grid-area: hd;
+    padding: 16px;
+    @include background-img('https://life.liga.net/images/general/2020/07/02/20200702131120-1421.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.header__title{
+    margin-top: 40px;  
+    background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Moon_merged_small.jpg/800px-Moon_merged_small.jpg); 
+    font-size: 80px; 
+    color: transparent; 
+    -webkit-background-clip: text;
+    animation: animate 15s infinite ease;
+    animation-direction: alternate;
+    text-align: center; 
+    -webkit-text-stroke: 0.07rem rgba(255, 250, 250, 0.9);
+}
+
+@keyframes animate {
+    from{
+        background-position: 0 0;
+    }
+    to{
+        background-position: 100% 100%;
+    }
+}
+
+.sort__label,
+.sort__item {
+    padding: 0 20px;
+    line-height: 3rem;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+.sort__item{
+    transition: 0.3s;
+}
+.sort__item:hover {
+    background-color: #0f0d0e;
+    border-bottom: 5px solid #fff;
+    margin-bottom: -5px;
+}
+.sort{
+    display: flex;
+    grid-area: nav;
+}
+
+.sidebar{
+    grid-area: sidebar;
+    padding: $double-std-indent;
+}
+.content{
+    display: flex;
+    grid-area: main;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.card{
+    margin-bottom: $double-std-indent;
+    cursor: pointer;
+    width: 44.7%;
+    height: fit-content;
+    background-color: $primary-color-light;
+    @include border-radius($radius);
+    overflow: hidden;
+    transition: box-shadow 0.25s, transform 0.25s;
+}
+
+.card:hover {
+     box-shadow: 0 0.5rem 0.5rem -0.4rem #777;
+    transform: translateY(-0.25rem); 
+}
+
+.card__header{
+    position: relative;
+    height: 250px;
+    overflow: hidden;
+    background-image: url('https://images.unian.net/photos/2020_01/thumb_files/1000_545_1578926739-7727.jpg');
+    background-size: cover;
+    background-position: 20px center;
+}
+
+.card__title{
+    position: absolute;
+    left: $std-indent;
+    bottom: $double-std-indent;
+    font-weight: 900;
+    text-shadow: 3px 3px 3px #222, 3px 3px 3px silver;
+    -webkit-text-stroke: 0.05rem rgba(0, 0, 0, .5);
+}
+
+.card__info{
+    position: absolute;
+    left: $std-indent;
+    bottom: $std-indent;
+    color: #ff7474;
+    font-weight: 900;
+    text-shadow: 1px 1px 4px rgba(255, 255, 236, 0.7);
+}
+
+.card__content{
+    padding: $std-indent;
+    font-size: 0.9rem;
+    line-height: 1.4rem;
+}
+
+.card__content p{
+    margin: 0;
+}
+
+.card__description{
+    @include line-cut(3);    
+}
+
+.footer{
+    grid-area: footer;
+    padding: 32px;
+    background-color: $primary-color-light;
+    text-align: center;
+} 
+.card__description::-webkit-scrollbar {
+    width: 15px;
+    background-color: transparent;
+}
+.card__description::-webkit-scrollbar-thumb{
+    border: 1px solid silver;
+    border-radius: 5px;
+    background-color: #111;
+}
+::-webkit-scrollbar-corner{
+    color: #0f0d0e;
+}
+::-webkit-scrollbar {
+    width: 15px;
+    background-color: transparent;
+}
+::-webkit-scrollbar-thumb{
+    border-radius: 2px;
+    background-color: rgb(35, 35, 35);
+}
+
+.burger{
+    display: none;
+}
+.burger__bar{
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    background-color: white;
+}
+@media all and (max-width:768px){
+    .container{
+        grid-template-columns: auto;
+        grid-template-rows: 195px;
+        grid-template-areas: 
+        "hd hd"
+        "nav nav"
+        "main main"
+        "footer footer" ;
+    }
+    .header{
+        padding: 16px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-attachment: fixed;
+        background-position: 0px 0px;
+        height: 195px;
+    }
+	.sort {
+		padding: 16px;
+		flex-direction: column;
+		align-items: flex-start;
+		height: fit-content;
+	}
+    .sort .sort__item,
+    .sort .sort__label{
+        display: none;
+    }
+    
+	.sort.open .sort__label,
+	.sort.open .sort__item {
+		display: block;
+		width: 100%;
+		padding: 0;
+	}
+    .sidebar{
+        display: none;
+    }
+    .card{
+        width: 100%;
+        margin: 0 16px 16px 16px;
+    }
+    .burger{
+        display: inline-block;
+    }
+}

@@ -1,0 +1,20 @@
+<style>
+  $primary-color: #FFFFFF;
+  $standard-font-size: 14px;
+
+  @mixin radius($radius) {
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -ms-border-radius: $radius;
+    border-radius: $radius;
+  }
+  %text-box {
+    color: $primary-color;
+    font-size: $standard-font-size;
+  }
+  .box {
+    @extend %text-box;
+    @include radius(5px);
+    box-shadow: 1px 1px 3px 4px #777777;
+  }
+</style>
