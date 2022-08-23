@@ -1,0 +1,33 @@
+Вертикально
+
+.box{
+    color: white;
+    font-size: 2rem;
+    width: 500px;
+    height: 500px;
+    overflow-y: auto;
+    scroll-snap-type: y mandatory;
+}
+
+.item{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    scroll-snap-align: start;
+}
+
+.item:nth-child(1){
+    background-color: tomato;
+}
+
+.item:nth-child(2){
+    background-color: aqua;
+}
+
+.item:nth-child(3) {
+    background-color: maroon;
+}
+
+.item:nth-child(4) {
+    background-color: teal;
+}

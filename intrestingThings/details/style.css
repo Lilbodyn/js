@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 1rem 0;
+}
+
+.container{
+    max-width: 1170px;
+    margin: auto;
+    padding: 0 15px;
+}
+
+.mt3 {
+    margin-top: 3rem;
+}
+
+/* details [open] {
+
+} */
+
+details summary {
+    background-color: #eee;
+    padding: 10px;
+    cursor: pointer;
+    list-style: none;
+}
+
+details div{
+    border: 1px solid #eee;
+    padding: 10px;
+}
+
+details summary::before{
+    content:'\27A4';
+    margin-right: 5px;
+}
+
+details[open] summary::before{
+    content:'\21E9';
+    margin-right: 5px;
+
+}
+details[open] div{
+    animation: slide .5s ;
+    animation-fill-mode: none;
+}
+
+@keyframes slide {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+details.desc summary::after{
+    content: attr(data-close);
+}
+
+details.desc[open] summary::after{
+    content: attr(data-open);
+}
