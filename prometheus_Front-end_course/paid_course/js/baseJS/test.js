@@ -1,0 +1,1 @@
+let planets = ['The Moon', 'Venus', 'Earth', 'Mars', 'Jupiter'];
