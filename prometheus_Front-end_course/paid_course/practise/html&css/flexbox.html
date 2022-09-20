@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Flexbox</title>
+    <style>
+      .container {
+        height: 300px;
+        position: relative;
+        border: 1px solid #DCDCDC;
+        background-color: #F5F5F5;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+      .item {
+        width: 300px;
+        height: 35px;
+        margin: 10px;
+        padding-top: 15px;
+        border-radius: 5px;
+        background-color: #ADD8E6;
+        text-align: center;
+        color: #333;
+      }
+    </style>
+  </head>
+  
+  <body>
+    <div class="container">
+      <div class="item">Flexbox Item 1</div>
+      <div class="item">Flexbox Item 2</div>
+      <div class="item">Flexbox Item 3</div>
+      <div class="item">Flexbox Item 4</div>
+    </div>
+  </body>
+</html>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Grid</title>
+    <style>
+      .container {
+        display: grid;
+        grid-template-columns: 20% auto 20%;
+        grid-template-rows: 100px 150px 150px 100px;
+        grid-gap: 10px;
+        grid-template-areas:
+          "header header header"
+          "nav main article"
+          "nav main article"
+          "footer footer footer";
+      }
+      .item-1 {
+  
+        grid-area: header;  
+        background-color: #29DDF0;
+      }
+      .item-2 {
+  
+        grid-area: nav;
+  
+        background-color: #2AFAD4;
+      }
+      .item-3 {
+  
+        grid-area: main;
+  
+        background-color: #32E390;
+      }
+      .item-4 {
+  
+        grid-area: article;
+  
+        background-color: #2AFA5E;
+      }
+      .item-5 {
+  
+        grid-area: footer;
+  
+        background-color: #31F029;
+      }
+    </style>
+  </head>
+  
+  <body>
+    <div class="container">
+      <div class="item-1">Header</div>
+      <div class="item-2">Nav</div>
+      <div class="item-3">Main</div>
+      <div class="item-4">Article</div>
+      <div class="item-5">Footer</div>
+    </div>
+  </body>
+</html>
