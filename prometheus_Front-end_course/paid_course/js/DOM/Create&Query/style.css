@@ -1,0 +1,15 @@
+h1 {
+	font-size: 3rem;
+}
+
+li, input, button, p {
+	font-size:  1.5rem;
+}
+
+input {
+	margin-top:  30px;
+}
+
+.card { 
+	margin: 30px;
+}

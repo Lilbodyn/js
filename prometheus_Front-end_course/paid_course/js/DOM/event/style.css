@@ -1,0 +1,23 @@
+li, input, button, p {
+	font-size:  1.5rem;
+}
+
+.card { 
+	margin: 30px;
+}
+
+.input-group {
+	margin-top:  30px;
+}
+
+section {
+	display: inline-block;
+	margin-top: 30px;
+	padding:  30px;
+}
+
+span {
+	display: inline-block;
+	margin: 30px;
+	padding:  30px;
+}

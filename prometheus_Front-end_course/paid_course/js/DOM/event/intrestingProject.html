@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>To Do List</title>
+  </head>
+  
+  <body>
+    <h1>Todo List</h1>
+    <form>
+      <label for="task">Enter a Task</label>
+      <input type="text" id="task" name="task"/>
+      <button type="submit">Submit</button>
+    </form>
+  
+    <ul id="list"></ul>
+    
+    <script>
+    const form = document.querySelector('form')
+    const ul = document.querySelector('ul')
+    
+    form.addEventListener('submit', function(event) {
+      event.preventDefault()
+      const value = document.querySelector("input").value// Значення ввода
+      if (!value) return
+      const li = document.createElement('li')
+      li.textContent = value
+      ul.prepend(li)
+      document.querySelector("input").value = ""
+    })
+    
+  
+    </script> 
+  </body>
+</html>
